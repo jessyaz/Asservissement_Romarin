@@ -35,6 +35,7 @@ void loop() {
   }
 
   if (stateDirection == 1) {
+    Serial.println("Direction fixé !");
     DirectionLoop();
   }
 
